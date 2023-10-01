@@ -5,21 +5,47 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
 
-
+        <!--Pretendo melhorar o CSS ainda e o HTML ainda, deixando o mais responsivo para qualquer um-->
         <style>
                 body {
                         background-image: url("img/MMs8Bit.gif");
                         background-repeat: no-repeat;
                         background-size: cover;
                         background-size: 100% 100%;
-                        padding: 100px;
-                        font-size: x-large;
+                        padding: 90px;
+                        font-size: 18px;
                         color: black;
                 }
 
-                .inicio {
-                        color: white
+                div.comeco {
+                        color: white;
+                }
+
+                div.inicio {
+                        color: white;
+                }
+
+                div.versao {
+                        color: white;
+                }
+
+                div.conceitos {
+                        color: white;
+                }
+
+                div.trivia {
+                        color: white;
+                }
+
+                div.opiniao {
+                        color: white;
+                }
+
+                div.fonte {
+                        color: white;
                 }
 
                 .spoiler span {
@@ -29,90 +55,217 @@
                 .spoiler:hover span {
                         visibility: visible;
                 }
+
+                article {
+                        padding: 20px;
+                        width: 70%;
+                        background-color: transparent;
+                }
+
+                .container1 {
+                        margin: 0.5em 0 0.5em 0.5em;
+                        clear: both;
+                        float: right;
+                }
         </style>
         <title>Um Garoto e sua "Termina"</title>
         <h1 style="font-family: ubuntu">Uma Máscara e Uma Baita História</h1>
 </head>
 
 <body>
-        <div style="font-family: ubuntu">
+        <div style="font-family: ubuntu" class="comeco">
+
                 <p>
                         Bom dia, Boa tarde e Boa Noite para todos e principalmente para aquele o qual este site
                         foi feito e tem seu próprio repositório.
                 </p>
                 <p>Aqui se encontrará em ordem:</p>
-                <ul>
-                        <a href="#ExplicaJogo"> Explicando um pouco do Jogo </a>
-                </ul>
-                <ul>
-                        <a href="#Versoes">
-                                Suas Versões
-                        </a>
-                </ul>
-                <ul>
-                        <a href="#Conceitos">
-                                Sobre o que erá pra ser
-                        </a>
-                </ul>
-                <ul>
-                        <a href="#Trivia">
-                                Curiosidades e Trivia
-                        </a>
-                </ul>
-                <p>
-                        E o melhor, com minha profunda opinião, Então se ajeite e tire um tempo
-                        para ler as falácias de alguém como eu
-                </p>
-                <div>
-                        <h2 style="font-family: ubuntu" id="ExplicaJogo">
-                                Explicando um pouco do Jogo
-                        </h2>
-                        <div id="inicio">
-                                <p style="font-family: ubuntu">
-                                        <i>The Legend of Zelda: Majora's Mask</i> é um jogo 3D de Ação e Aventura
-                                        ambientado em
-                                        lugar ficticio conhecida como
-                                        Termina, lançado em 20 de Abril de 2000, uma Sequência de seu antecessor
-                                        <i>Ocarina of
-                                                Time</i>, no qual apresentava gráficos melhorados,
-                                        mecanicas reaproveitadas e novas para o seu enredo.
-                                        Sua história se passa cerca de 2 meses após os acontecimentos de OoT no qual...
-                                        Spoilers
+                <dl>
+                        <dt>
+                                <a href="#ExplicaJogo">
+                                        Explicando um pouco do Jogo
+                                </a>
+                        <dd>Seu inicio e informações.</dd>
+                        </dt>
+                        <dt>
+                                <a href="#Versoes">
+                                        Suas Versões
+                                </a>
+                        <dd>Ports e Emulações</dd>
+                        </dt>
+                        <dt>
+                                <a href="#Conceitos">
+                                        Sobre o que era pra ser
+                                </a>
+                        <dd>N64DD e 2 disquetes de expansão</dd>
+                        </dt>
+                        <dt>
+                                <a href="#Trivia">
+                                        Curiosidades e Trivia
+                                </a>
+                        <dd>Curiosidades</dd>
+                        </dt>
+                        <dt>
+                                <a href="#Opiniao">
+                                        Opiniao
+                                </a>
+                        <dd>O que eu acho do jogo</dd>
+                        </dt>
+                        <dt>
+                                <a href="#Fontes">
+                                        Fontes
+                                </a>
+                        <dd>Informações sobre o Jogo</dd>
+                        </dt>
+                        <p>
+                                E o melhor, com minha profunda opinião, Então se ajeite e tire um tempo
+                                para ler as falácias de alguém como eu.
+                        </p>
+                        <article>
+                                <div>
+                                        <h2 id="ExplicaJogo">
+                                                Explicando um pouco do Jogo
+                                        </h2>
+                                        <img class="container1" src="img/majoras.gif" alt="Skull Kid com as fadas"
+                                                width="340" height="250">
+                                        <div class="inicio">
+                                                <p>
+                                                        <i>The Legend of Zelda: Majora's Mask</i>
+                                                        é um jogo 3D de Ação e Aventura ambientado em lugar ficticio
+                                                        conhecida como
+                                                        Termina, lançado em 20 de Abril de 2000, lançado para Nintendo
+                                                        64, uma Sequência
+                                                        de seu antecessor, <i>Ocarina of Time</i>, no qual apresentava
+                                                        gráficos melhorados,
+                                                        mecanicas reaproveitadas e novas para a sua jogabilidade.
+                                                        Sua história se passa cerca de 2 meses após os acontecimentos de
+                                                        OoT no qual..Spoilers
+                                                </p>
+                                                <span class="spoiler">
+                                                        <span>Link, após retornar a ser uma criança, procura por Navi,
+                                                                sua fada</span>
+                                                </span>
 
-                                        <span class="spoiler"><span>Link, após retornar a ser uma criança, procura por
-                                                        Navi, sua
-                                                        fada</span></span>
-                                <p>Ele se depara com um Skull Kid utilizando a Majora's Mask, o mesmo é acompanhado por
-                                        2 fadas,
-                                        Talt e Tael, onde o mesmo rouba o cavalo de Link, e Link persegue-o até cair no
-                                        mundo
-                                        paralelo
-                                        de Termina, onde Link se depara com o vendedor a qual a mascará o pertence e
-                                        exige que
-                                        Link
-                                        a recupere em até 3 dias, logo Link terá que fazer uma série de missões para que
-                                        salve
-                                        Termina,
-                                        da ameaça de Skull Kid de jogar a Lua, em Termina </p>
-                                </p>
-                        </div>
-                </div>
-                <div>
+                                                <p>Ele se depara com um Skull Kid utilizando a Majora's Mask, o mesmo é
+                                                        acompanhado por
+                                                        2 fadas, Talt e Tael, onde o mesmo rouba o cavalo de Link, e
+                                                        Link persegue-o até
+                                                        cair no mundo paralelo de Termina, onde Link se depara com o
+                                                        vendedor a
+                                                        qual a mascará o pertence e exige que Link a recupere em até 3
+                                                        dias,
+                                                        logo Link terá que fazer uma série de missões para que salve
+                                                        Termina,
+                                                        da ameaça de Skull Kid de jogar a Lua, em Termina.
+                                                </p>
+
+
+                                        </div>
+                                </div>
+                        </article>
                         <h2 style="font-family: ubuntu" id="Versoes">
-                                Versões</h2>
-                </div>
-                <div>
-                        <h2 style="font-family: ubuntu" id="Conceitos">
+                                Versões
+                        </h2>
+                        <div class="versao">
+
+                                <p>O Jogo por sua vez apresenta: 6 versões</p>
+                                <ul>
+                                        Majora's Mask(N64)
+                                </ul>
+                                <ul>
+                                        The Legend of Zelda: Collector's Edition(GameCube) - Emulação
+                                </ul>
+                                <ul>
+                                        Virtual Console(Wii) - Emulação
+                                </ul>
+                                <ul>
+                                        Virtual Console(Wii U) - Emulação
+                                </ul>
+                                <ul>
+                                        Majora's Mask 3D(3DS) - Remake
+                                </ul>
+                                <ul>
+                                        Switch Online(Switch) - Emulação
+                                </ul>
+                        </div>
+
+                        <h2 id="Conceitos">
                                 O que era pra ser</h2>
-                </div>
-                <div>
-                        <h2 style="font-family: ubuntu" id="Trivia">
+                        <div class="conceitos">
+                                <p>No Anuncio do Nintendo 64, a empresa mostrou um acessorio no qual você acoplaria ao
+                                        console chamado de N64DD,
+                                        Este acessório permitia que o N64 usasse discos magneticos de 64MBs para
+                                        aumentar o armazenamento de dados
+                                        Tanto é que o Ocarina of Time era pra ser lançado como um titulo de lançamento
+                                        para o N64DD, entretanto,
+                                        foi para o cartucho por problemas de perfomance, com isso o jogo perdeu espaço,
+                                        mesmo sendo lançado como
+                                        cartucho, ele sofria queda de espaço indo de 64 para sua metade, causando muitas
+                                        vezes, texturas quebradas,
+                                        cut-scenes cortadas, inimigos, novidades, A Fonte do Unicornio(Lugar
+                                        provavelmente perto da Zora's Domain) e
+                                        2 dungeons (o Templo do Gelo e o do Vento).</p>
+                                <p>Mesmo assim a Empresa que não mencionamos insistiu, para compensar pelo pouco espaço,
+                                        planejaram lançar 2 expansões de disquete para Ocarina
+                                        Uma chamada "Ura Zelda" e outra "Zelda Gaiden". </p>
+                                <p>Não se sabe o que aconteceu com "Ura Zelda", embora é possivel encontrar sua logo na
+                                        tela de titulo e
+                                        seletor de save e poucos arquivos e codigos referente ao mesmo.</p>
+                                <p>Quanto ao "Zelda Gaiden", repensaram na ideia por ele ser muito similar ao seu
+                                        antecessor, com isso reutilizaram texturas melhoradas,
+                                        o uso do Expansion Pak e com isso seu nome final se tornou Majora's Mask, ou
+                                        como eu chamo a tech demo/beta de Zelda Gaiden. </p>
+                        </div>
+
+                        <h2 id="Trivia">
                                 Curiosidades e Trivia</h2>
-                </div>
-        </div>
-        <div>
-                <p></p>
-        </div>
+                        <div class="trivia">
+                                <p>Curiosidades sobre o mesmo</p>
+                                <ol>
+                                        <li>O jogo tem como inspiração na mecanica principal sobre o tempo de um filme
+                                                chamado "Lola Corra Lola".
+                                        </li>
+                                        <li>É o primeiro e único jogo onde a história não é centrada a Zelda, Ganondorf
+                                                e muito menos a Triforce</li>
+                                </ol>
+                        </div>
+                        <h2 id="Opiniao">
+                                Minha opinião
+                        </h2>
+                        <div class="opiniao">
+                                <p>Olha, acho que é a primeira vez que penso em fazer uma opinião sobre ele, então vamos
+                                        lá</p>
+                                <p>Majora's Mask é realmente um excelente jogo de Zelda, sua historia é bem construida,
+                                        não ficando atrelado a Zelda ou a Triforce o que é otimo, trazendo consigo um
+                                        novo vilão, lugar e transformações
+                                        e mecanicas que fazem o jogo realmente parecer novo comparado graficamente a seu
+                                        antecessor.</p>
+                                <p>Possui uma trilha sonora quase que é fenomenal tendo por ex: "Astral Observatory",
+                                        "Clock Town" com
+                                        suas variaçõe por dia, até mesmo a música de título é boa.</p>
+                                <p>Mas mesmo com todas essas qualidades, ele ainda é confuso para alguem que inicia na
+                                        franquia ou que não entende muito bem suas mecanicas</p>
+                                <p>No meu Ranking ele se encontra em 3º Lugar, mesmo eu particularmente não sendo fã
+                                        tanto dele quanto do OoT, ele tem meu merecido respeito.</p>
+                                <p><i>"Wind Waker superior apenas" palavras de Gustavo The Deka</i></p>
+                        </div>
+
+                        <h2 id="Fontes">
+                                Fontes
+                        </h2>
+                        <div class="fontes">
+                                <ul>
+                                        <ol>
+                                                <a href="https://lostmediawiki.com/Zelda_Gaiden_(lost_beta_version_of_"
+                                                        The_Legend_of_Zelda:_Majora%27s_Mask"_Nintendo_64_action-adventure_game;_late_1990s)">
+                                                        Lost Media Wiki: Zelda Gaiden
+                                                </a>
+                                        </ol>
+
+
+                                </ul>
+
+                        </div>
 </body>
 
 </html>
