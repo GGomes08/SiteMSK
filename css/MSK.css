@@ -25,6 +25,9 @@ div.comeco dl,dd,dt,a{
 
 div.inicio {
     color: white;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgb(70,51,107);
 
 }
 
@@ -85,17 +88,10 @@ div.fonte {
     visibility: visible;
 }
 
-article {
-    padding: 20px;
-    border-radius: 25px;
-    width: 70%;
-    background-color: rgb(70,51,107);
-}
-
 .container1 {
     margin: 0.5em 0 0.5em 0.5em;
     width: 200px;
-    height: 200ox;
+    height: 200px;
     border-radius: 30px;
     clear: right;
     float: right;
